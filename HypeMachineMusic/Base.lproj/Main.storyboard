@@ -76,6 +76,7 @@
                                             <outlet property="artistLabel" destination="R5q-mu-ABC" id="i8Z-jd-jOw"/>
                                             <outlet property="postImageView" destination="0dx-qS-4Qd" id="36T-Gn-8Tm"/>
                                             <outlet property="rankLabel" destination="2gK-8R-ZSn" id="bYf-Lb-jYd"/>
+                                            <outlet property="titleLabel" destination="U2x-We-pbP" id="mxv-w8-DeK"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>

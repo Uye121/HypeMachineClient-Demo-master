@@ -59,11 +59,11 @@ class Posting: NSObject {
     class func postingsFromArray(postsFromAPI: [NSDictionary]) -> [Posting] {
         var postingArray = [Posting]()
         
-        for postingDictionary in postsFromAPI {
+        for postDictionary in postsFromAPI {
             guard let post = Posting(postingDictionary: postDictionary) else {
                 continue
             }
-            postingArray.append(posting)
+            postingArray.append(post)
         }
         
         return postingArray
