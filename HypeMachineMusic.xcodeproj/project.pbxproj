@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		07ED7A581E5B8AA300BB4A2A /* Posting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ED7A571E5B8AA300BB4A2A /* Posting.swift */; };
+		07ED7A5A1E5BA17E00BB4A2A /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07ED7A591E5BA17E00BB4A2A /* PostTableViewCell.swift */; };
 		D59A442E1E5B72A800F570BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59A442D1E5B72A800F570BF /* AppDelegate.swift */; };
 		D59A44301E5B72A800F570BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59A442F1E5B72A800F570BF /* ViewController.swift */; };
 		D59A44331E5B72A800F570BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D59A44311E5B72A800F570BF /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		07ED7A571E5B8AA300BB4A2A /* Posting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Posting.swift; sourceTree = "<group>"; };
+		07ED7A591E5BA17E00BB4A2A /* PostTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
 		D59A442A1E5B72A800F570BF /* HypeMachineMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypeMachineMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D59A442D1E5B72A800F570BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D59A442F1E5B72A800F570BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 		D59A44441E5B73AD00F570BF /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				07ED7A591E5BA17E00BB4A2A /* PostTableViewCell.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -185,6 +188,7 @@
 			files = (
 				07ED7A581E5B8AA300BB4A2A /* Posting.swift in Sources */,
 				D59A44301E5B72A800F570BF /* ViewController.swift in Sources */,
+				07ED7A5A1E5BA17E00BB4A2A /* PostTableViewCell.swift in Sources */,
 				D59A442E1E5B72A800F570BF /* AppDelegate.swift in Sources */,
 				D59A44411E5B72D900F570BF /* HypeMClient.swift in Sources */,
 			);
