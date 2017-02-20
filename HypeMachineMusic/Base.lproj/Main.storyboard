@@ -25,7 +25,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="133" id="LOx-TZ-PY7" customClass="PostTableViewCell" customModule="HypeMachineMusic" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostingTableViewCell" rowHeight="133" id="LOx-TZ-PY7" customClass="PostTableViewCell" customModule="HypeMachineMusic" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="133"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="LOx-TZ-PY7" id="Hdu-yA-lP4">
@@ -73,9 +73,9 @@
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="artistLabel" destination="R5q-mu-ABC" id="i8Z-jd-jOw"/>
                                             <outlet property="postImageView" destination="0dx-qS-4Qd" id="36T-Gn-8Tm"/>
                                             <outlet property="rankLabel" destination="2gK-8R-ZSn" id="bYf-Lb-jYd"/>
-                                            <outlet property="titleLabel" destination="R5q-mu-ABC" id="ybe-LR-sXJ"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -89,6 +89,9 @@
                             <constraint firstItem="Mvz-zL-Ldn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ybK-hi-uSS"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="postsTableView" destination="Mvz-zL-Ldn" id="lgG-Ju-KD7"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
